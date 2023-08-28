@@ -1,0 +1,99 @@
+.cart-wrapper{
+   background: radial-gradient(  rgba(255, 255, 255, 0.155), black);
+   /* background: linear-gradient(to right, black, rgba(255, 255, 255, 0.255)); */
+   width: 100%;
+   min-height: 100vh;
+   padding-top: 6rem;
+   padding-left : 6rem;
+   padding-right : 6rem;
+   padding-bottom: 4rem;
+   text-align: center;
+   margin: 0 auto;
+}
+.cart-heading{
+   font-size: 4rem;
+   /* border: 2px solid white; */
+  font-family: 'Clicker Script', cursive;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  /* transition: width 2s, height 2s, transform 2s; */
+  text-shadow: 3px 2px 3px white;
+
+/* 
+ transition-duration: 3s;
+ transition-property: inherit;
+ transition-delay: 3s;
+ transition-timing-function: ease-in-out; */
+
+ /* transition: ease-in-out; */
+ transform: rotate3d(3s);
+}
+.cart-products{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 3rem;
+   /* padding: 4rem 8rem; */
+   /* width: 80%; */
+   /* justify-content: center;
+   align-items: center; */
+   
+}
+
+
+.cart-item{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   flex-wrap: wrap;
+   flex-wrap: wrap;
+   min-height: 150px;
+   align-items: center;
+   background-color: #484343c1;
+   /* color: black; */
+   /* box-shadow:  0  0 1rem white; */
+   border-radius: 10px;border: 0.5rem solid white;
+   font-size: 1rem;
+   /* letter-spacing: 1px ; */
+   padding-right: 3rem;
+   font-family: 'Martian Mono', monospace;
+
+   }
+   .no-items{
+      width: 250px;
+      margin: 0 auto;
+      color: gray;
+      font-size: 2rem;
+   }
+.cart-image{
+   width: 150px;
+   height: 150px;
+}
+.cart-title{
+   width: 400px;
+   /* border: 1px solid black; */
+   text-align: justify;
+}
+.remove-btn{
+   background: linear-gradient(rgba(255, 255, 255, 0.412), black);
+   /* border: 1px solid white; */
+   padding: 0.5rem 2rem;
+   border-radius: 0.3rem;
+   margin: 1.5rem;
+   box-shadow: 0 0 0.5rem black;
+}
+.remove-btn:hover{
+   /* box-shadow: 0 0 0.5rem rgb(75, 74, 74); */
+   background-color: black;
+   border: 1px solid white;
+   
+
+}
+
+@media( max-width:734px){
+         .cart-item{
+            justify-content: center;
+            gap: 1rem;
+            padding-left: 2rem;
+            text-align: center;
+         }
+}

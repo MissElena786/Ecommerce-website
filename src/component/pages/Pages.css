@@ -1,0 +1,26 @@
+.category-main{
+   width: 100%;
+  height: 500px;
+  /* background: url("https://t3.ftcdn.net/jpg/02/71/77/56/360_F_271775672_yo8ZgraN2IHGbfqP2k0PsLjwvmatUNUJ.jpg"); */
+  /* filter: grayscale(100%); */
+  -webkit-filter: grayscale(100%);
+  /* background-color: antiquewhite; */
+
+}
+.electronics{
+   width: 100%;
+   height: 500px;
+   background: url("https://bizimages.withfloats.com/tile/5ae04bede8d5d60a78aca193.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 5rem;
+
+}
+.category-wrapper{
+   background: radial-gradient(rgba(255, 255, 255, 0.298),black);
+   display: flex;
+   flex-wrap: wrap;
+   gap: 3rem;
+   padding: 4rem;
+   justify-content: center;
+}
