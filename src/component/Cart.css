@@ -97,3 +97,10 @@
             text-align: center;
          }
 }
+
+
+@media (max-width :444px){
+   .cart-wrapper{
+      padding: 14rem 2rem 2rem 2rem;
+   }
+}

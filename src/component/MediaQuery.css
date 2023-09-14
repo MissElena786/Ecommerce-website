@@ -131,7 +131,22 @@
 }
 @media (max-width :444px){
    .dropdown{
-      right: -2rem;
+      right: 3rem;
+      /* left: 0; */
+      /* bottom: -1rem; */
+      top: -1rem;
+   }
+   .main{
+      padding-top: 10rem;
+   }
+   .navbar{
+      height: 13rem;
+   }
+   .cart-products{
+      width: 100%;
+   }
+   .cart-wrappwer{
+      padding: 10rem 1rem 2rem 1rem ;
    }
 }
 @media (max-width :338px){

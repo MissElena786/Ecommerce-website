@@ -46,7 +46,7 @@ function Products() {
          </div>
          <div id='products' className='products-wrapper'>
             <h1 className='collection text-center'>Collection</h1>
-            <div  className='products flex justify-center  flex-wrap  gap-14 p-20'>
+            <div  className='products flex justify-center  flex-wrap  gap-14 sm:p-20'>
 
                {(!isLoading) ? 
                <div className="d-flex justify-content-center">
